@@ -25,12 +25,12 @@ body {
 
   text-align: center;
 
-   width: min(95vw, 900px);
+   width: min(90vw, 650px);
    min-height: auto;
 
-  padding: clamp(20px,4vw,45px);
+  padding: clamp(18px,3vw,30px);
 
-  border-radius: 25px;
+  border-radius: 22px;
 
   background: rgba(255, 255, 255, 0.10);
 
@@ -73,11 +73,11 @@ h2,h3,p {
 }
 
 .btn {
-    width: clamp(90px, 20vw, 230px);
-    height: clamp(90px, 20vw, 230px);
+    width: clamp(80px, 16vw, 170px);
+    height: clamp(80px, 16vw, 170px);
 
-    border-radius: 20%;
-    margin: clamp(6px, 1.5vw, 15px);
+    border-radius: 18%;
+    margin: clamp(5px, 1vw, 10px);
 
     cursor: pointer;
     transition: transform 0.15s ease;
